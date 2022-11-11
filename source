@@ -29,6 +29,10 @@ Section:NewButton("plamens gui", "credit to plamen", function()
     Section:NewButton("hardcore", "makes the game really hard", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/UkqP7g6x"))()
     end) 
+    Section:NewButton("gun", "gun", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/amZThJgf"))()  -- function
+    end) 
+    
 local ArsenalTab     = Window:NewTab("arsenal")
 local ArsenalSection = ArsenalTab:NewSection("penis")
 ArsenalSection:NewButton("good aimbot and shix", "your mom", function()
