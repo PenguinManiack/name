@@ -6,7 +6,7 @@ Section:NewButton("vynixius", "Creddit to vynixuis, this is an all around great 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
 end)
 Section:NewButton("reagans script", "Creddit to myself, this is an all around great script ", function()
-        oadstring(game:HttpGet("https://gist.githubusercontent.com/Mye123/87ab74fb91d19e55f3aee9cdb7bb773b/raw/9371e6140bff7cbb98fc53a03e3c6f7215bb834c/gistfile1.txt"))()
+        loadstring(game:HttpGet("https://gist.githubusercontent.com/Mye123/87ab74fb91d19e55f3aee9cdb7bb773b/raw/9371e6140bff7cbb98fc53a03e3c6f7215bb834c/gistfile1.txt"))()
     end)
 Section:NewButton("entity spawner", "credit to the name of the guy on the script cus idk ", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/StupidProAArsenal/main/main/deer%20customs',true))()
