@@ -39,12 +39,12 @@ Section:NewButton("plamens gui", "credit to plamen", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/DOORSFpsGun.lua?token=GHSAT0AAAAAAB2POHILOXMAHBQ2GN2QD2MQY3SXTCQ"))()-- loadstring-- function
     end) 
 local GunSection = Tab:NewSection("gunsection")
-GunSection:NewButton("dorrito gun", "dorito shooter", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PenguinManiack/every-gun/main/dorito"))() -- function
-end)
-GunSection:NewButton("christmas gun", "desc", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PenguinManiack/every-gun/main/cristmas"))() -- function
-end)
+    GunSection:NewButton("dorrito gun", "dorito shooter", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PenguinManiack/every-gun/main/dorito"))() -- function
+    end)
+    GunSection:NewButton("christmas gun", "desc", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PenguinManiack/every-gun/main/cristmas"))() -- function
+    end)
 local ArsenalTab     = Window:NewTab("arsenal")
 local ArsenalSection = ArsenalTab:NewSection("penis")
 ArsenalSection:NewButton("good aimbot and shix", "your mom", function()
