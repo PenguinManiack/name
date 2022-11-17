@@ -38,10 +38,11 @@ Section:NewButton("plamens gui", "credit to plamen", function()
     Section:NewButton("gun zeppsy", "gun", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/DOORSFpsGun.lua?token=GHSAT0AAAAAAB2POHILOXMAHBQ2GN2QD2MQY3SXTCQ"))()-- loadstring-- function
     end) 
-Section:NewButton("dorrito gun", "dorito shooter", function()
+local GunSection = Tab:NewSection("gunsection")
+GunSection:NewButton("dorrito gun", "dorito shooter", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PenguinManiack/every-gun/main/dorito"))() -- function
 end)
-Section:NewButton("christmas gun", "desc", function()
+GunSection:NewButton("christmas gun", "desc", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PenguinManiack/every-gun/main/cristmas"))() -- function
 end)
 local ArsenalTab     = Window:NewTab("arsenal")
