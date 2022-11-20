@@ -53,8 +53,11 @@ Section:NewButton("plamens gui", "credit to plamen", function()
     Section:NewButton("dorrito bag", "shoots doritos", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PenguinManiack/every-gun/main/dorrito%20bag%20gun"))()
     end)
-        Section:NewButton("old plamens", "works better", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/OldEntityGUI/main/OldEntityGUI'))()
+    Section:NewButton("regulair m429", "just a regulair gun", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PenguinManiack/every-gun/main/regulair%20m429"))() -- function
+    end)
+    Section:NewButton("old plamens", "works better", function()
+         loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/OldEntityGUI/main/OldEntityGUI'))()
     end)
 
 local ArsenalTab     = Window:NewTab("arsenal")
