@@ -26,9 +26,6 @@ Section:NewButton("plamens gui", "credit to plamen", function()
     Section:NewButton("crucufix", "only for you dady", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Xactver/Xactver/main/obf_ouV6xBGv9rfye6WWWxwScKk5uQ71O5qM18meX3egQ9EaoXK9343AtkzV9avyh0lo.lua"))()-- function
     end)   
-    Section:NewButton("hardcore", "makes the game really hard", function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/UkqP7g6x"))()
-    end) 
     Section:NewButton("gun", "gun", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PenguinManiack/gun/main/gun"))()  -- function
     end) 
